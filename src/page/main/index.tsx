@@ -1,5 +1,7 @@
+import User from "@/shared/components/user";
+
 const Main = () => {
-  return <div></div>;
+  return <User />;
 };
 
 export default Main;
