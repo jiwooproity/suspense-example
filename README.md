@@ -4,7 +4,9 @@
 
 ## UserList JSON Sample
 
-https://dummyjson.com/
+URL : https://dummyjson.com/
+
+아래 표기된 유저 정보는 dummyjson의 자원입니다.
 
 ```
 // GET: https://dummyjson.com/users
