@@ -37,6 +37,7 @@ const RAW_RUNTIME_STATE =
           ["eslint-plugin-react-refresh", "virtual:ee194976d6334d1d6850c12656105059a7574baf31bb2b22f5158ddc4a5010cc845c8c0531c73d82bd8c9828be23ae57cc5d29799fa6b4d17d47d3d2f1444d7f#npm:0.4.7"],\
           ["react", "npm:18.3.1"],\
           ["react-dom", "virtual:ee194976d6334d1d6850c12656105059a7574baf31bb2b22f5158ddc4a5010cc845c8c0531c73d82bd8c9828be23ae57cc5d29799fa6b4d17d47d3d2f1444d7f#npm:18.3.1"],\
+          ["recoil", "virtual:ee194976d6334d1d6850c12656105059a7574baf31bb2b22f5158ddc4a5010cc845c8c0531c73d82bd8c9828be23ae57cc5d29799fa6b4d17d47d3d2f1444d7f#npm:0.7.7"],\
           ["typescript", "patch:typescript@npm%3A5.5.2#optional!builtin<compat/typescript>::version=5.5.2&hash=379a07"],\
           ["vite", "virtual:ee194976d6334d1d6850c12656105059a7574baf31bb2b22f5158ddc4a5010cc845c8c0531c73d82bd8c9828be23ae57cc5d29799fa6b4d17d47d3d2f1444d7f#npm:5.3.1"]\
         ],\
@@ -2212,6 +2213,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["hamt_plus", [\
+      ["npm:1.0.2", {\
+        "packageLocation": "../../../../.yarn/berry/cache/hamt_plus-npm-1.0.2-67a52ee1df-10c0.zip/node_modules/hamt_plus/",\
+        "packageDependencies": [\
+          ["hamt_plus", "npm:1.0.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["has-flag", [\
       ["npm:3.0.0", {\
         "packageLocation": "../../../../.yarn/berry/cache/has-flag-npm-3.0.0-16ac11fe05-10c0.zip/node_modules/has-flag/",\
@@ -3038,6 +3048,37 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["recoil", [\
+      ["npm:0.7.7", {\
+        "packageLocation": "../../../../.yarn/berry/cache/recoil-npm-0.7.7-4452f58b67-10c0.zip/node_modules/recoil/",\
+        "packageDependencies": [\
+          ["recoil", "npm:0.7.7"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:ee194976d6334d1d6850c12656105059a7574baf31bb2b22f5158ddc4a5010cc845c8c0531c73d82bd8c9828be23ae57cc5d29799fa6b4d17d47d3d2f1444d7f#npm:0.7.7", {\
+        "packageLocation": "./.yarn/__virtual__/recoil-virtual-22b3b5839e/5/.yarn/berry/cache/recoil-npm-0.7.7-4452f58b67-10c0.zip/node_modules/recoil/",\
+        "packageDependencies": [\
+          ["recoil", "virtual:ee194976d6334d1d6850c12656105059a7574baf31bb2b22f5158ddc4a5010cc845c8c0531c73d82bd8c9828be23ae57cc5d29799fa6b4d17d47d3d2f1444d7f#npm:0.7.7"],\
+          ["@types/react", "npm:18.3.3"],\
+          ["@types/react-dom", "npm:18.3.0"],\
+          ["@types/react-native", null],\
+          ["hamt_plus", "npm:1.0.2"],\
+          ["react", "npm:18.3.1"],\
+          ["react-dom", "virtual:ee194976d6334d1d6850c12656105059a7574baf31bb2b22f5158ddc4a5010cc845c8c0531c73d82bd8c9828be23ae57cc5d29799fa6b4d17d47d3d2f1444d7f#npm:18.3.1"],\
+          ["react-native", null]\
+        ],\
+        "packagePeers": [\
+          "@types/react-dom",\
+          "@types/react-native",\
+          "@types/react",\
+          "react-dom",\
+          "react-native",\
+          "react"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["resolve-from", [\
       ["npm:4.0.0", {\
         "packageLocation": "../../../../.yarn/berry/cache/resolve-from-npm-4.0.0-f758ec21bf-10c0.zip/node_modules/resolve-from/",\
@@ -3326,6 +3367,7 @@ const RAW_RUNTIME_STATE =
           ["eslint-plugin-react-refresh", "virtual:ee194976d6334d1d6850c12656105059a7574baf31bb2b22f5158ddc4a5010cc845c8c0531c73d82bd8c9828be23ae57cc5d29799fa6b4d17d47d3d2f1444d7f#npm:0.4.7"],\
           ["react", "npm:18.3.1"],\
           ["react-dom", "virtual:ee194976d6334d1d6850c12656105059a7574baf31bb2b22f5158ddc4a5010cc845c8c0531c73d82bd8c9828be23ae57cc5d29799fa6b4d17d47d3d2f1444d7f#npm:18.3.1"],\
+          ["recoil", "virtual:ee194976d6334d1d6850c12656105059a7574baf31bb2b22f5158ddc4a5010cc845c8c0531c73d82bd8c9828be23ae57cc5d29799fa6b4d17d47d3d2f1444d7f#npm:0.7.7"],\
           ["typescript", "patch:typescript@npm%3A5.5.2#optional!builtin<compat/typescript>::version=5.5.2&hash=379a07"],\
           ["vite", "virtual:ee194976d6334d1d6850c12656105059a7574baf31bb2b22f5158ddc4a5010cc845c8c0531c73d82bd8c9828be23ae57cc5d29799fa6b4d17d47d3d2f1444d7f#npm:5.3.1"]\
         ],\
