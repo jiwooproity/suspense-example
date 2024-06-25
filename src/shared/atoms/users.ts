@@ -7,7 +7,11 @@ interface User {
   image: string;
 }
 
-const getUserList = async (): Promise<AxiosResponse> => {
+interface Response {
+  users: User[];
+}
+
+const getUserList = (): Promise<AxiosResponse<Response>> => {
   return new Promise((resolve) => {
     setTimeout(() => {
       resolve(axios.get("https://dummyjson.com/users"));
