@@ -1,4 +1,4 @@
-import User from "@/shared/components/user";
+import User from "@/widgets/user";
 
 const Main = () => {
   return <User />;

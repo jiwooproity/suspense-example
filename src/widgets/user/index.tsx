@@ -1,9 +1,12 @@
 import { Suspense } from "react";
 
 import "./style/main.css";
+
 import UserItem from "./ui/user-item";
 import UserSkeleton from "./ui/skeleton";
-import useLocation from "@/shared/hooks/use-location";
+
+import { useLocation } from "@/shared/hooks";
+import { Button } from "@/shared/components";
 
 const Skeleton = () => {
   return Array.from({ length: 6 }, (_, id) => {
@@ -16,9 +19,7 @@ const User = () => {
 
   return (
     <div className="user-list">
-      <button className="refresh-btn" onClick={refresh}>
-        Refresh
-      </button>
+      <Button className="refresh-btn" buttonText="Refresh" onClick={refresh} />
       <Suspense fallback={<Skeleton />}>
         <UserItem />
       </Suspense>
