@@ -8,7 +8,7 @@ const UserItem: UserItemType = () => {
   const userList = useRecoilValue(userListSelector);
 
   return userList.map((user) => (
-    <div className="user-wrap">
+    <div key={user.username} className="user-wrap">
       <div className="user-profile">
         <img src={user.image} />
       </div>
